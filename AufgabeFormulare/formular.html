@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <title>Firmenanlass CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <form action="https://formlog.offline.ch/log" method="POST">
+      <fieldset>
+        <legend>Persönliche Angaben</legend>
+        <label for="name">Name</label>
+        <input name="name" type="text" id="name" placeholder="Max Mustermann" required/>
+
+        <br>
+
+        <label for="email">Email</label>
+        <input name="email" type="email" id="email" placeholder="maxmustermann@gmail.ch" required/>
+
+
+        <br>
+
+        <label for="telefon">Telefonnummer</label>
+        <input type="text" name="telefon" id="telefon" placeholder="+41 77 000 00 26" required/>
+
+        <br>
+      </fieldset>
+
+      <fieldset>  
+        <legend>Wohnort</legend>
+        <label for="strasse">Strasse</label>
+        <input name="strasse" type="text" id="strasse" placeholder="Musterstrasse 1" required/>
+
+        <br>
+
+        <label for="plz">Plz</label>
+        <input type="text" name="plz" id="plz" placeholder="0000" required/>
+
+        <br>
+
+        <label for="ort">Ort</label>
+        <input type="text" name="ort" id="ort" placeholder="Musterstadt" required/>
+      </fieldset>
+
+      <fieldset>
+        <legend>Anreise</legend>
+
+        <label for="zugInput">Welche Abo hast du?</label required>
+        <select name="zug" id="">zugInput
+            <option value="keinAbo">Kein Abo</option>
+            <option value="GA">GA</option>
+            <option value="halbtax">halbtax</option>
+            <option value="streckenabo">Streckenabo Luzern-Zürich</option>
+        </select><br>
+
+      </fieldset>
+
+      <fieldset>
+        <legend>Verpflegung und Unterkunft</legend>
+        <p>Welches Menü willst du?</p>
+        <input type="radio" id="menue1" name="menue" value="menue1">
+        <label for="menue1">Menü 1 - Fleisch/Fisch</label><br />
+
+        <input type="radio" id="menue2" name="menue" value="menue2">
+        <label for="menue2">Menü 2 - Vegetarisch</label><br />
+        <br>
+
+        <p>Mit oder ohne Übernachtung</p>
+        <input type="radio" id="mitUebernachtung" name="uebernachtung" value="mitUebernachtung">
+        <label for="mitUebernachtung">Mit Übernachtung</label><br />
+
+        <input type="radio" id="ohneUebernachtung" name="uebernachtung" value="ohneUebernachtung">
+        <label for="ohneUebernachtung">Ohne Übernachtung</label><br />
+        <br>
+
+        <p>Einzel- oder Doppelzimmer</p>
+        <input type="radio" id="einzelzimmer" name="zimmer" value="einzelzimmer">
+        <label for="einzelzimmer">Einzelzimmer</label><br />
+
+        <input type="radio" id="doppelzimmer" name="zimmer" value="doppelzimmer">
+        <label for="doppelzimmer">Doppelzimmer</label><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Zusatz</legend>
+        <label for="bemerkungen">Bemerkungen</label><br />
+        <textarea name="bemerkungen" id="bemerkungen" cols="50" rows="4"></textarea>
+      </fieldset>
+
+      <br>
+
+      <button type="submit">Absenden</button>
+
+      <button type="reset">Zurücksetzen</button>
+
+    </form>
+  </body>
+
+</html>

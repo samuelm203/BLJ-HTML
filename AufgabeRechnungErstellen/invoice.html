@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>Rechnung CSS</title>
+  </head>
+
+  <body>
+
+  <header>
+    <img class="logoCss" src="/Bilder/CssLogo.png" alt="Das Logo der CSS" />
+    <p class="AdresseAbsender">
+      CSS Versicherung<br />
+      Tribschenstrasse 21<br />
+      6000 Luzern
+    </p>
+
+    <p class="AdresseEmpfaenger">
+      Manfred Muster<br />
+      Stucklistrasse 4<br />
+      6021 Münchenbuchsee
+    </p>
+
+    <p>Adligenswil, 29.August 2025</p>
+  </header>
+
+      <h1>Rechnung 29-2025-08</h1>
+    <p>
+      Wie vereinbart stellen wir als ihre Krankenversicherung folgende Kosten in
+      Rechnung
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>#</th>   
+          <th>Beschreibung</th>
+          <th>Stückpreis</th>
+          <th>Anzahl</th>
+          <th>Preis [CHF]</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Krankenversicherung</td>
+          <td>100</td>
+          <td>1</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Zusatzversicherung</td>
+          <td>45</td>
+          <td>1</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Zahnversicherung</td>
+          <td>45</td>
+          <td>1</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td colspan="4" class="WeisseTabelle"></td>
+          <td class="SummeGesamt">190</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Vielen Dank für ihr Vertrauen</p>
+    <p>Mit freundlichen Grüssen, ihre Versicherung</p>
+
+    <div class="Unterschrift-Bereich">
+      <img
+        class="Unterschrift"
+        src="/Bilder/UnterschriftSamuel.jpg"
+        alt="Unterschrift von deinem Versicherungsberater"
+      />
+      <p class="Unterschrift-Verlinkung">
+        <a
+          href="https://www.linkedin.com/in/samuel-ming-7b528a261/"
+          target="_blank"
+          >Samuel Ming</a
+        >
+      </p>
+    </div>
+
+    <p class="Anhang-Titel">Anhang</p>
+    <ul class="Anhang-Liste">
+      <li>Grundversicherung</li>
+      <li>Zusatzversicherung</li>
+      <li>Zahnversicherung</li>
+    </ul>
+  </body>
+</html>

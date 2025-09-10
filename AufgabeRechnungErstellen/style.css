@@ -1,0 +1,100 @@
+body {
+  border: 1px solid #888888;
+  margin: 3% auto;
+  width: 21cm;
+  min-height: 27.9cm;
+  box-shadow: -6px 6px 12px #888888;
+  padding: 2cm 2.5cm;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.logoCss {
+  margin-bottom: 30px;
+  width: 200px;
+  height: 90px;
+}
+
+.AdresseEmpfaenger {
+  margin-left: 50%;
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 100px;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 50px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #000;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #ddd;
+}
+
+.SummeGesamt {
+  border-bottom: 3px double #000;
+  font-weight: bold;
+  text-align: center;
+  padding-right: 10px;
+}
+
+.WeisseTabelle {
+  border: none;
+  background-color: white;
+}
+
+.tabelle-beschriftung {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.Unterschrift {
+  height: 70px;
+  width: auto;
+  margin-left: 0;
+}
+
+.Anhang-Titel {
+  font-weight: bold;
+}
+
+.Anhang-Liste {
+  margin-left: 0;
+  padding-left: 1em;
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+.Unterschrift-Bereich {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.Unterschrift-Verlinkung a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: gray;
+}
+
+td:first-child {
+  background-color: #f2f2f2;
+}
+
+tr:last-child td {
+  background-color: white;
+}
+

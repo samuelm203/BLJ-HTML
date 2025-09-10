@@ -1,0 +1,67 @@
+form {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: inline-block;;
+    width: 200px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+fieldset {
+    border: #ccc 1px solid;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 3px;
+}
+
+input[type = "email"] {
+    width: 300px;
+    padding: 3px;
+}
+
+select {
+    width: 310px;
+    padding: 3px;
+}
+
+p {
+    margin-top: 10px;
+    font-style: italic;
+    font-weight: 549;
+}
+
+input[type="radio"] {
+    font-style: normal;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 0px 5px 0 0;
+    border-radius: 1px;
+}
+
+button[type="submit"]:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+button[type="reset"]:hover {
+    background-color: rgb(192, 43, 43);
+    cursor: pointer;
+}
